@@ -51,21 +51,6 @@ void test()
 	printMatrix(matrix, size);
 	setTestValues(matrix, size);
 
-	flipHorizontally(matrix, size);
-	std::cout << "flipped horizontally matrix:" << std::endl;
-	printMatrix(matrix, size);
-	setTestValues(matrix, size);
-
-	flipVertically(matrix, size);
-	std::cout << "flipped vertically matrix:" << std::endl;
-	printMatrix(matrix, size);
-	setTestValues(matrix, size);
-
-	shiftRight(matrix, size, 2);
-	std::cout << "shifted right by 2 matrix:" << std::endl;
-	printMatrix(matrix, size);
-	setTestValues(matrix, size);
-
 	shiftBottom(matrix, size, 2);
 	std::cout << "shifted bottom by 2 matrix:" << std::endl;
 	printMatrix(matrix, size);

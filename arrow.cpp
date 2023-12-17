@@ -61,7 +61,7 @@ void drawArrow(int** matrix, int size, arrow arrow)
 	int** tempMatrix = newMatrix(size);
 	initWithZeroes(tempMatrix, size);
 
-		switch (arrow.direction)
+	switch (arrow.direction)
 	{
 	case direction::top: drawTopArrow(tempMatrix, size, arrow.isCentered);
 		break;
